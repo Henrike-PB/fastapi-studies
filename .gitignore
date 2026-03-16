@@ -1,0 +1,79 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual Environment ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Testes e Cobertura ---
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# --- Build ---
+build/
+dist/
+*.spec
+
+# --- Configuração local ---
+*.db
+*.sqlite3
+*.sqlite
+*.bak
+*.tmp
+*.temp
+*.cache
+*.log
+
+# --- Arquivos de sistema ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Docker ---
+*.pid
+*.seed
+*.pid.lock
+
+# --- FastAPI / Uvicorn ---
+*.pid
+*.log
+
+# --- Arquivos de ambiente ---
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# --- Arquivos estáticos e uploads (FastAPI) ---
+static/
+media/
+uploads/
+
+# --- Node (se usar frontend junto) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
